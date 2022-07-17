@@ -9,4 +9,4 @@ This project contains 2 parts
 
 2) EventHubTrigger is an Azure function project that is subscribed to the notifications sent to Azure IoT and that are later sent to Business Central through a Webservice published for this purpose.
 
-For more information in the following link: https://ivansinglenton.dev/post=1541
+For more information in the following link: https://ivansinglenton.dev/?p=1541
