@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "IoTHubEndpoints": "Endpoint=sb://ihsuprodblres034dednamespace.servicebus.windows.net/;SharedAccessKeyName=service;SharedAccessKey=MDRG5K4epGsNSINMiE9JJSmL/XXXXXXXXXXXXXXXX=;EntityPath=iothub-ehub-ivansingle-20179072-xxxxxxxx",
+    "Clientid": "Your Client ID",
+    "Tenantid": "Your Tenant ID",
+    "ClientSecret": "Your Secrect ID",
+    "CompanyID": "Your Company ID",
+    "EnvironmentName": "sandbox"
+  }
+}
