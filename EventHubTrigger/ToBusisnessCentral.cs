@@ -13,7 +13,7 @@ namespace EventHubTrigger
     public class ToBusisnessCentral
     { 
         [FunctionName("ToBusisnessCentral")]
-        public async Task Run([IoTHubTrigger("iothub-ehub-ivansingle-20179072-b3bee04bf7", Connection = "IoTHubEndpoints", ConsumerGroup = "$Default")] string message, ILogger log)
+        public async Task Run([IoTHubTrigger("iothub-ehub-ivansingle-20179072-XXXXXXX", Connection = "IoTHubEndpoints", ConsumerGroup = "$Default")] string message, ILogger log)
         {
             log.LogInformation($"IoT Hub trigger: message: {message}");
             
